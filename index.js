@@ -15,6 +15,10 @@ var through2 = require('through2'),
     'package.json': {
       cmd: 'npm',
       args: ['install']
+    },
+    'config.js': {
+      cmd: 'jspm',
+      args: ['install']
     }
   };
 
